@@ -1,0 +1,15 @@
+1.Go inside the folder by using terminal and write the command npx i -y...
+2.Now go inside the terminal and write the command npm i express...
+3.Now use nodemon for the automatic loading   
+             --for that go inside the package.json folder and write   "start": "node index.js",
+              "dev": "nodemon index.js"
+              --If you write npm run dev to start the server...
+
+
+create 5 files--a)Configs--all constant things are in this file .
+                b)Models--All the properties if the function in this file.
+                c)controller--All the function are in this file.
+                d)Routes--routes contain the path of all the file .
+                e).env-- enviroment file contains the port number of the file.and database url.
+
+.now use npm i dotenv for importingthe env fole into an object.
